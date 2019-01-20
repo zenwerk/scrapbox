@@ -1,0 +1,40 @@
+forTest
+以下２行改行あける
+
+
+[** 太字です]
+[/ イタリック]
+[- 取り消し線]
+
+code:test.ml
+ let f x = x in
+ let g f;;
+
+code:test.py
+ def hoge():
+     print('hoge')
+ import os
+`インラインコード`
+$ ls -a | awk '{ print $1 }'
+ インデント１
+ 　インデント２
+ 　	インデント３
+>引用ほげふが
+>ピヨピヨピヨ
+>`hoge` [/ref/en/impose]
+>http://example.com
+
+[* [Python] AAA]
+[/icons/このページについて]
+
+[存在しないリンク]
+
+[* 画像]
+[https://gyazo.com/fc692b2195de376f4190625686e8e6e6]
+
+[zenwerk]
+
+[$ (1 + 2) \div 3]
+
+[**-/ [`hoge`] ]
+[zenwerk.icon]

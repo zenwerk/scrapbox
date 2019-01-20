@@ -1,0 +1,147 @@
+/* これは使われていない？ */
+#popup-rel-cards-bubble, .popup-text-bubble {
+    background-color: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),
+    0 3px 1px -2px rgba(0,0,0,.2),
+    0 1px 5px 0 rgba(0,0,0,.12);
+    position: absolute;
+    display: none;
+    padding: 10px;
+    box-sizing: content-box;
+    z-index: 10000;
+}
+
+.popup-cards {
+    height: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.popup-cards li {
+    float: none !important;
+}
+
+.popup-cards li .title {
+    float: left;
+}
+
+/* これは使われていない？ */
+#popup-rel-cards-bubble .page-list-item {
+    display: inline-block;
+    white-space: normal;
+    margin: 0 10px 10px 0;
+}
+
+.popup-text-bubble {
+    color: #565656;
+    padding: 5px;
+    font-size: 9pt;
+    cursor: default;
+    border: 1px solid #fff;
+    position: absolute;
+}
+
+.popup-text-bubble .empty-page-link {
+    color: #ed8362;
+}
+
+.popup-backquote {
+    background-color: rgba(0,0,0,0.04);
+    border-radius: 2px;
+    box-sizing: border-box;
+    padding: 1px;
+    font-size: 8.5pt;
+}
+
+.popup-external-project {
+    background-color: #fafafa;
+}
+
+.popup-line-permalink {
+    background-color: #fff277;
+}
+
+.popup-underline {
+    text-decoration: underline;
+}
+
+.popup-tiny-icon {
+    height: 11pt;
+}
+
+/* ポップアップ内に表示される画像の最大高さ */
+.popup-small-img {
+    max-height: 200px;
+}
+
+.popup-ref-link {
+    text-decoration: underline;
+}
+
+.popup-ref-link img {
+    border-style: none none solid;
+    border-width: 1px;
+    border-color: #7ba1f8;
+}
+
+#popup-ctrlv {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+    height: 0;
+}
+
+.popup-quote {
+    font-style: italic;
+    background-color: rgba(128,128,128,0.1);
+    display: inline-block;
+    border-left: solid 2px #a0a0a0;
+    padding-left: 2px;
+    width: 100%;
+}
+
+/* コードブロック全体 */
+.popup-code-block {
+    display: inline-block;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.04);
+    width: 100%;
+    tab-size: 4;
+    color: #c7254e;
+}
+
+/* コードブロックのタイトル */
+.popup-code-block-start {
+    font-size: .9em;
+    background-color: #ffcfc6;
+    padding: 1px 2px;
+    color: #342d9c;
+    text-decoration: underline;
+}
+
+.popup-code-copy-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    text-decoration: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #342d9c;
+    background-color: khaki;
+    font-size: 0.9em;
+    padding: 0 5px;
+}
+
+.popup-code-copy-button:hover {
+    background-color: #fff277;
+}
+
+.popup-title {
+    margin-top: 0;
+    font-size: 16px;
+    font-weight: bold;
+}

@@ -1,0 +1,765 @@
+{
+  "lines": [
+    [
+      {
+        "type": "indent",
+        "level": 0
+      },
+      {
+        "type": "contents",
+        "contents": [
+          {
+            "type": "text",
+            "text": "forTest"
+          }
+        ]
+      },
+      {
+        "type": "blank"
+      }
+    ],
+    [
+      {
+        "type": "indent",
+        "level": 0
+      },
+      {
+        "type": "contents",
+        "contents": [
+          {
+            "type": "text",
+            "text": "以下２行改行あける"
+          }
+        ]
+      },
+      {
+        "type": "blank"
+      }
+    ],
+    [
+      {
+        "type": "indent",
+        "level": 0
+      },
+      {
+        "type": "contents",
+        "contents": [
+          {
+            "type": "blank"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "type": "indent",
+        "level": 0
+      },
+      {
+        "type": "contents",
+        "contents": [
+          {
+            "type": "blank"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "type": "indent",
+        "level": 0
+      },
+      {
+        "type": "contents",
+        "contents": [
+          {
+            "type": "decoration",
+            "bold": 2,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "contents": [
+              {
+                "type": "text",
+                "text": "太字です"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "blank"
+      }
+    ],
+    [
+      {
+        "type": "indent",
+        "level": 0
+      },
+      {
+        "type": "contents",
+        "contents": [
+          {
+            "type": "decoration",
+            "bold": 0,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "contents": [
+              {
+                "type": "text",
+                "text": "イタリック"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "blank"
+      }
+    ],
+    [
+      {
+        "type": "indent",
+        "level": 0
+      },
+      {
+        "type": "contents",
+        "contents": [
+          {
+            "type": "decoration",
+            "bold": 0,
+            "italic": false,
+            "strikethrough": true,
+            "underline": false,
+            "contents": [
+              {
+                "type": "text",
+                "text": "取り消し線"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "blank"
+      }
+    ],
+    [
+      {
+        "type": "indent",
+        "level": 0
+      },
+      {
+        "type": "contents",
+        "contents": [
+          {
+            "type": "blank"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "type": "indent",
+        "level": 0
+      },
+      {
+        "type": "contents",
+        "contents": [
+          {
+            "type": "codeblock",
+            "name": "test.ml"
+          }
+        ]
+      },
+      {
+        "type": "blank"
+      }
+    ],
+    [
+      {
+        "type": "indent",
+        "level": 1
+      },
+      {
+        "type": "contents",
+        "contents": [
+          {
+            "type": "text",
+            "text": "let f x = x in"
+          }
+        ]
+      },
+      {
+        "type": "blank"
+      }
+    ],
+    [
+      {
+        "type": "indent",
+        "level": 1
+      },
+      {
+        "type": "contents",
+        "contents": [
+          {
+            "type": "text",
+            "text": "let g f;;"
+          }
+        ]
+      },
+      {
+        "type": "blank"
+      }
+    ],
+    [
+      {
+        "type": "indent",
+        "level": 0
+      },
+      {
+        "type": "contents",
+        "contents": [
+          {
+            "type": "blank"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "type": "indent",
+        "level": 0
+      },
+      {
+        "type": "contents",
+        "contents": [
+          {
+            "type": "codeblock",
+            "name": "test.py"
+          }
+        ]
+      },
+      {
+        "type": "blank"
+      }
+    ],
+    [
+      {
+        "type": "indent",
+        "level": 1
+      },
+      {
+        "type": "contents",
+        "contents": [
+          {
+            "type": "text",
+            "text": "def hoge():"
+          }
+        ]
+      },
+      {
+        "type": "blank"
+      }
+    ],
+    [
+      {
+        "type": "indent",
+        "level": 5
+      },
+      {
+        "type": "contents",
+        "contents": [
+          {
+            "type": "text",
+            "text": "print('hoge')"
+          }
+        ]
+      },
+      {
+        "type": "blank"
+      }
+    ],
+    [
+      {
+        "type": "indent",
+        "level": 1
+      },
+      {
+        "type": "contents",
+        "contents": [
+          {
+            "type": "text",
+            "text": "import os"
+          }
+        ]
+      },
+      {
+        "type": "blank"
+      }
+    ],
+    [
+      {
+        "type": "indent",
+        "level": 0
+      },
+      {
+        "type": "contents",
+        "contents": [
+          {
+            "type": "backquote",
+            "text": "インラインコード"
+          }
+        ]
+      },
+      {
+        "type": "blank"
+      }
+    ],
+    [
+      {
+        "type": "indent",
+        "level": 0
+      },
+      {
+        "type": "contents",
+        "contents": [
+          {
+            "type": "shell",
+            "text": "ls -a | awk '{ print $1 }'"
+          }
+        ]
+      },
+      {
+        "type": "blank"
+      }
+    ],
+    [
+      {
+        "type": "indent",
+        "level": 1
+      },
+      {
+        "type": "contents",
+        "contents": [
+          {
+            "type": "text",
+            "text": "インデント１"
+          }
+        ]
+      },
+      {
+        "type": "blank"
+      }
+    ],
+    [
+      {
+        "type": "indent",
+        "level": 2
+      },
+      {
+        "type": "contents",
+        "contents": [
+          {
+            "type": "text",
+            "text": "インデント２"
+          }
+        ]
+      },
+      {
+        "type": "blank"
+      }
+    ],
+    [
+      {
+        "type": "indent",
+        "level": 3
+      },
+      {
+        "type": "contents",
+        "contents": [
+          {
+            "type": "text",
+            "text": "インデント３"
+          }
+        ]
+      },
+      {
+        "type": "blank"
+      }
+    ],
+    [
+      {
+        "type": "indent",
+        "level": 0
+      },
+      {
+        "type": "contents",
+        "contents": [
+          {
+            "type": "quote",
+            "text": "引用ほげふが"
+          }
+        ]
+      },
+      {
+        "type": "blank"
+      }
+    ],
+    [
+      {
+        "type": "indent",
+        "level": 0
+      },
+      {
+        "type": "contents",
+        "contents": [
+          {
+            "type": "quote",
+            "text": "ピヨピヨピヨ"
+          }
+        ]
+      },
+      {
+        "type": "blank"
+      }
+    ],
+    [
+      {
+        "type": "indent",
+        "level": 0
+      },
+      {
+        "type": "contents",
+        "contents": [
+          {
+            "type": "quote",
+            "text": "`hoge`"
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "link",
+            "url": "/ref/en/impose",
+            "text": "/ref/en/impose",
+            "internal": true
+          }
+        ]
+      },
+      {
+        "type": "blank"
+      }
+    ],
+    [
+      {
+        "type": "indent",
+        "level": 0
+      },
+      {
+        "type": "contents",
+        "contents": [
+          {
+            "type": "quote",
+            "text": "http://example.com"
+          }
+        ]
+      },
+      {
+        "type": "blank"
+      }
+    ],
+    [
+      {
+        "type": "indent",
+        "level": 0
+      },
+      {
+        "type": "contents",
+        "contents": [
+          {
+            "type": "blank"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "type": "indent",
+        "level": 0
+      },
+      {
+        "type": "contents",
+        "contents": [
+          {
+            "type": "decoration",
+            "bold": 1,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "contents": [
+              {
+                "type": "link",
+                "url": "Python",
+                "text": "Python",
+                "internal": true
+              },
+              {
+                "type": "text",
+                "text": "AAA"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "blank"
+      }
+    ],
+    [
+      {
+        "type": "indent",
+        "level": 0
+      },
+      {
+        "type": "contents",
+        "contents": [
+          {
+            "type": "link",
+            "url": "/icons/このページについて",
+            "text": "/icons/このページについて",
+            "internal": true
+          }
+        ]
+      },
+      {
+        "type": "blank"
+      }
+    ],
+    [
+      {
+        "type": "indent",
+        "level": 0
+      },
+      {
+        "type": "contents",
+        "contents": [
+          {
+            "type": "blank"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "type": "indent",
+        "level": 0
+      },
+      {
+        "type": "contents",
+        "contents": [
+          {
+            "type": "link",
+            "url": "存在しないリンク",
+            "text": "存在しないリンク",
+            "internal": true
+          }
+        ]
+      },
+      {
+        "type": "blank"
+      }
+    ],
+    [
+      {
+        "type": "indent",
+        "level": 0
+      },
+      {
+        "type": "contents",
+        "contents": [
+          {
+            "type": "blank"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "type": "indent",
+        "level": 0
+      },
+      {
+        "type": "contents",
+        "contents": [
+          {
+            "type": "decoration",
+            "bold": 1,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "contents": [
+              {
+                "type": "text",
+                "text": "画像"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "blank"
+      }
+    ],
+    [
+      {
+        "type": "indent",
+        "level": 0
+      },
+      {
+        "type": "contents",
+        "contents": [
+          {
+            "type": "link",
+            "url": "https://gyazo.com/fc692b2195de376f4190625686e8e6e6",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "blank"
+      }
+    ],
+    [
+      {
+        "type": "indent",
+        "level": 0
+      },
+      {
+        "type": "contents",
+        "contents": [
+          {
+            "type": "blank"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "type": "indent",
+        "level": 0
+      },
+      {
+        "type": "contents",
+        "contents": [
+          {
+            "type": "link",
+            "url": "zenwerk",
+            "text": "zenwerk",
+            "internal": true
+          }
+        ]
+      },
+      {
+        "type": "blank"
+      }
+    ],
+    [
+      {
+        "type": "indent",
+        "level": 0
+      },
+      {
+        "type": "contents",
+        "contents": [
+          {
+            "type": "blank"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "type": "indent",
+        "level": 0
+      },
+      {
+        "type": "contents",
+        "contents": [
+          {
+            "type": "tex",
+            "text": "(1 + 2) \div 3"
+          }
+        ]
+      },
+      {
+        "type": "blank"
+      }
+    ],
+    [
+      {
+        "type": "indent",
+        "level": 0
+      },
+      {
+        "type": "contents",
+        "contents": [
+          {
+            "type": "blank"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "type": "indent",
+        "level": 0
+      },
+      {
+        "type": "contents",
+        "contents": [
+          {
+            "type": "decoration",
+            "bold": 2,
+            "italic": true,
+            "strikethrough": true,
+            "underline": false,
+            "contents": [
+              {
+                "type": "link",
+                "url": "`hoge`",
+                "text": "`hoge`",
+                "internal": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "blank"
+      }
+    ],
+    [
+      {
+        "type": "indent",
+        "level": 0
+      },
+      {
+        "type": "contents",
+        "contents": [
+          {
+            "type": "link",
+            "url": "zenwerk.icon",
+            "text": "zenwerk.icon",
+            "internal": true
+          }
+        ]
+      },
+      {
+        "type": "blank"
+      }
+    ]
+  ]
+}
